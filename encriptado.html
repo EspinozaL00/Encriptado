@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" class="encriptador">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Encriptador</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/encriptado.css" />
+    </head>
+
+    <body class="rectangulo">
+
+        <header>
+            <img class="a" src="imagenes/a.jpg" />
+        </header>
+        <main>
+            <section>
+                <textarea type="text" cols="70" rows="10" id="inputTexto" class="caja" placeholder="Ingrese el texto aquí"></textarea>
+                <button type="button" id="boton-Encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="boton-Desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </section>
+            <section>
+                <img id="muneco" src="imagenes/Muñeco.jpg" />
+                <img class="recordatorio" src="imagenes/recordatorio.jpg" />
+                <h1 id="texto">Ningún mensaje fue encontrado</h1>
+                <textarea id="texto2" name="name" rows="8" cols="38"></textarea>
+                <button type="button" id="boton-copiar" onclick="copiar()">Copiar</button>
+            </section>
+        
+        </main>  
+        <script src="js/index.js"></script>
+    </body>
+    
+</html>
